@@ -8,13 +8,13 @@ unique_ptr<ph5::CCompanyStand> ph5::CCompanyStand::Create(EStand eStand, double 
 	switch (eStand)
 	{
 		case EStand::eEngineer:
-			return make_unique<CEngineer>();
+			return make_unique<CEngineer>(dMonthlySalary);
 
 		case EStand::eSalesman:
-			return make_unique<CSalesman>();
+			return make_unique<CSalesman>(dMonthlySalary);
 
 		case EStand::eManager:
-			return make_unique<CManager>();
+			return make_unique<CManager>(dMonthlySalary);
 
 		default:
 			_ASSERT(false);
