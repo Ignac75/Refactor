@@ -21,25 +21,19 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ph1_Patient.h">
+    <ClInclude Include="ph1_Employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ph2_BloodGroup.h">
+    <ClInclude Include="ph2_Employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ph2_Patient.h">
+    <ClInclude Include="ph3_Employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ph3_BloodGroup.h">
+    <ClInclude Include="ph4_Employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ph3_Patient.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BloodGroup.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Patient.h">
+    <ClInclude Include="ph5_Employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -50,25 +44,19 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ph1_Patient.cpp">
+    <ClCompile Include="ph1_Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ph2_BloodGroup.cpp">
+    <ClCompile Include="ph2_Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ph2_Patient.cpp">
+    <ClCompile Include="ph3_Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ph3_BloodGroup.cpp">
+    <ClCompile Include="ph4_Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ph3_Patient.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BloodGroup.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Patient.cpp">
+    <ClCompile Include="ph5_Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

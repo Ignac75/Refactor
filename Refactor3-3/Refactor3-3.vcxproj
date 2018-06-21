@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{330825A8-332B-4847-96D9-2999E20CAFEC}</ProjectGuid>
+    <ProjectGuid>{A8F9457C-874E-4A58-8E92-5883C8AEA526}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Refactor31</RootNamespace>
+    <RootNamespace>Refactor33</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,25 +147,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BloodGroup.h" />
-    <ClInclude Include="Patient.h" />
-    <ClInclude Include="ph1_Patient.h" />
-    <ClInclude Include="ph2_BloodGroup.h" />
-    <ClInclude Include="ph2_Patient.h" />
-    <ClInclude Include="ph3_BloodGroup.h" />
-    <ClInclude Include="ph3_Patient.h" />
+    <ClInclude Include="ph1_Employee.h" />
+    <ClInclude Include="ph2_Employee.h" />
+    <ClInclude Include="ph3_Employee.h" />
+    <ClInclude Include="ph4_Employee.h" />
+    <ClInclude Include="ph5_Employee.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BloodGroup.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Patient.cpp" />
-    <ClCompile Include="ph1_Patient.cpp" />
-    <ClCompile Include="ph2_BloodGroup.cpp" />
-    <ClCompile Include="ph2_Patient.cpp" />
-    <ClCompile Include="ph3_BloodGroup.cpp" />
-    <ClCompile Include="ph3_Patient.cpp" />
+    <ClCompile Include="ph1_Employee.cpp" />
+    <ClCompile Include="ph2_Employee.cpp" />
+    <ClCompile Include="ph3_Employee.cpp" />
+    <ClCompile Include="ph4_Employee.cpp" />
+    <ClCompile Include="ph5_Employee.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
